@@ -13,7 +13,7 @@ class Item(BaseModel):
 #GET endpoints for the root URL
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Hello": "World"} #Return a simple JSON response
 
 #GET endpoint that retrieves an item by its ID
 @app.get("/items/{item_id}")
