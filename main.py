@@ -4,6 +4,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
+#Defines a Pydantic model for the structure of an item
 class Item(BaseModel):
     name: str
     price: float
