@@ -18,7 +18,7 @@ def read_root():
 #GET endpoint that retrieves an item by its ID
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: Union[str, None] = None):
-    return {"item_id": item_id, "q": q}
+    return {"item_id": item_id, "q": q} #returns the item ID and optional query parameter
 
 #PUT endpoint that updates an item by ID
 @app.put("/items/{item_id}")
