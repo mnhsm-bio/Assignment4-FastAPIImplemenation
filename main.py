@@ -2,7 +2,7 @@ from typing import Union
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-app = FastAPI()
+app = FastAPI() #creates an instance of the FastAPI application
 
 #Defines a Pydantic model for the structure of an item
 class Item(BaseModel):
