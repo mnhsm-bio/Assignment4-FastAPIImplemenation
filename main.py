@@ -1,6 +1,6 @@
-from typing import Union
-from fastapi import FastAPI
-from pydantic import BaseModel
+from typing import Union #Allows us to specify optional types like Union[str, None]
+from fastapi import FastAPI #Imports FastAPI so we can create an API application
+from pydantic import BaseModel #BaseMofel is used to define data validation models
 
 app = FastAPI() #creates an instance of the FastAPI application
 
